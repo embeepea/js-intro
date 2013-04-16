@@ -1,0 +1,37 @@
+<html>
+<head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+</script>
+<script type="text/javascript">
+  function doHello() {
+    jQuery('#wilma').text("Hello");
+    jQuery('#betty').text("World!");
+  }
+  $(document).ready(function() {
+    jQuery('button').click(function() {
+      doHello();
+    });
+  });
+</script>
+</head>
+<body>
+
+<p>This web page contains my third javascript program.</p>
+
+<table border="1" cellspacing="0"><tr>
+  <tr>
+    <td id="fred">one</td>
+    <td id="barney">two</td>
+  </tr>
+  <tr>
+    <td id="wilma">three</td>
+    <td id="betty">four</td>
+  </tr>
+</table>
+
+<hr>
+
+<button type="button">Go</button>
+
+</body>
+</html> 
