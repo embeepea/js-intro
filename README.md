@@ -11,14 +11,50 @@
 * JavaScript is client-side
 * (server-side JavaScript is also possible now, but we're going to ignore that)
 
-##Example
+##example1.html - hello world!
 
 ```html
 <html>
 <head>
+<script type="text/javascript">
+  function doHello() {
+    document.getElementById("demo").innerHTML = "Hello, World!";
+  }
+</script>
 </head>
 <body>
-Hi there, this is a test!
+
+<p id="demo">This is my first javascript program.</p>
+
+<button type="button" onclick="doHello()">Go</button>
+
 </body>
-</html>
+</html> 
+```
+
+##example2.html / example2.js - hello world in a separate .js file
+
+###example2.html
+
+```html
+<html>
+<head>
+<script type="text/javascript">
+</script>
+</head>
+<body>
+
+<p id="demo">This is my first javascript program.</p>
+
+<button type="button" onclick="doHello()">Go</button>
+
+</body>
+</html> 
+```
+###example2.js
+
+```javascript
+function doHello() {
+  document.getElementById("demo").innerHTML = "Hello, World!";
+}
 ```
