@@ -11,99 +11,57 @@
 * JavaScript is client-side
 * (server-side JavaScript is also possible now, but we're going to ignore that)
 
-##example1.html - hello world!
+##example1.html
 
-```html
-<html>
-<head>
-<script type="text/javascript">
-  function doHello() {
-    document.getElementById("demo").innerHTML = "Hello, World!";
-  }
-</script>
-</head>
-<body>
+* Hello World!
 
-<p id="demo">This is my first javascript program.</p>
+##example2.html / example2.js
 
-<button type="button" onclick="doHello()">Go</button>
+* Same as example1, but with JavaScript in a separate file
 
-</body>
-</html> 
-```
+##example3.html
 
-##example2.html / example2.js - hello world in a separate .js file
+* A more complicated HTML structure.
 
-###example2.html
+##example4.html
 
-```html
-<html>
-<head>
-<script type="text/javascript">
-</script>
-</head>
-<body>
+* Arranging for JS code to run immediately on page load
+* HTML page elements are not available until page has finished loading!
+* body "onload" attribute.
 
-<p id="demo">This is my first javascript program.</p>
+##example5.html
 
-<button type="button" onclick="doHello()">Go</button>
+* Same as example4, but with CSS styling.
+* DOM concepts
+  * elements / attributes - nested structure
+  * "selectors" for targeting objects in DOM
 
-</body>
-</html> 
-```
-###example2.js
+##example6.html
 
-```javascript
-function doHello() {
-  document.getElementById("demo").innerHTML = "Hello, World!";
-}
-```
+* divs and spans: useful containers for organizing the structure of a page.  Like tables, but more flexible.
+* 'class' vs 'id' attributes
+* Google Chrome dev tools: view HTML structure, see console log
 
-##example3.html - a more complicated HTML structure
+##example7.html
 
-```html
-<html>
-<head>
-<script type="text/javascript">
-  function doHello() {
-    document.getElementById("wilma").innerHTML = "Hello";
-    document.getElementById("betty").innerHTML = "World!";
-  }
-</script>
-</head>
-<body>
+* introducing jQuery
+* $ / jQuery function
+* jQuery selectors: 'document', '#wilma', '#betty'
+* anonymous functions
+* asynchronicity, 'callback' functions
 
-<p>This web page contains my third javascript program.</p>
+##example7.html
 
-<table border="1" cellspacing="0"><tr>
-  <tr>
-    <td id="fred">one</td>
-    <td id="barney">two</td>
-  </tr>
-  <tr>
-    <td id="wilma">three</td>
-    <td id="betty">four</td>
-  </tr>
-</table>
+* registering event handlers
 
-<hr>
+##JavaScript Language Fundamentals
 
-<button type="button" onclick="doHello()">Go</button>
-
-</body>
-</html> 
-```
-
+* syntax similar to php and many other C-inspired languages
+* variables declared with `var` statement
+* scoping
 
 #Other things to cover
 
-* HTML DOM concepts
-* divs & spans, both plain and nested
-* class attributes vs id attributes
-* jQuery
-* targeting DOM elements with selectors in jQuery
-* document-ready / onload
-* anonymous functions
-* asynchronous operations, function callbacks
 * javascript objects, properties
-
+* json - JavaScript Object Notation
+* ajax (Asynchronous JavaScript and Xml), web services

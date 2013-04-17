@@ -1,32 +1,26 @@
 <html>
-<head>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
-</script>
-<script type="text/javascript">
-  function doHello() {
-    jQuery('#wilma').text("Hello");
-    jQuery('#betty').text("World!");
-  }
-</script>
-</head>
-<body>
+  <head>
+    <script type="text/javascript">
+      function doHello() {
+        document.getElementById("wilma").innerHTML = "Hello";
+        document.getElementById("betty").innerHTML = "World!";
+      }
+    </script>
+  </head>
 
-<p>This web page contains my third javascript program.</p>
+  <body onload="doHello();">
 
-<table border="1" cellspacing="0"><tr>
-  <tr>
-    <td id="fred">one</td>
-    <td id="barney">two</td>
-  </tr>
-  <tr>
-    <td id="wilma">three</td>
-    <td id="betty">four</td>
-  </tr>
-</table>
+    <table border="1" cellspacing="0"><tr>
+      <tr>
+        <td id="fred">one</td>
+        <td id="barney">two</td>
+      </tr>
+      <tr>
+        <td id="wilma">three</td>
+        <td id="betty">four</td>
+      </tr>
+    </table>
 
-<hr>
+  </body>
 
-<button type="button" onclick="doHello()">Go</button>
-
-</body>
 </html> 

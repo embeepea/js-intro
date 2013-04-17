@@ -1,0 +1,21 @@
+.firstrow {
+  background-color: #ccffcc;
+}
+.secondrow {
+  background-color: #ccccff;
+}
+
+
+.red {
+  background-color: #ffcccc;
+}
+.green {
+  background-color: #ccffcc;
+}
+.blue {
+  background-color: #ccccff;
+}
+.red,.green,.blue {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

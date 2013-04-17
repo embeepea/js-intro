@@ -1,15 +1,28 @@
 <html>
   <head>
     <link type="text/css" rel="stylesheet" href="example-style.css"/>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript">
       function doHello() {
-        document.getElementById("wilma").innerHTML = "Hello";
-        document.getElementById("betty").innerHTML = "World!";
+        $('#wilma').text("Hello");
+        $('#betty').text("World!");
       }
+      function undoHello() {
+        $('#wilma').text("three");
+        $('#betty').text("four");
+      }
+      $(document).ready(function() {
+        $('#wilma').click(function() {
+          doHello();
+        });
+        $('#betty').click(function() {
+          undoHello();
+        });
+      });
     </script>
   </head>
 
-  <body onload="doHello();">
+  <body>
 
     <table border="1" cellspacing="0"><tr>
       <tr class="firstrow">
