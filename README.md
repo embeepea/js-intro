@@ -80,9 +80,17 @@
 
 ##example11.html
 
-* ajax (Asynchronous JavaScript and XML) with jQuery
+* AJAX (Asynchronous JavaScript and XML) with jQuery
+* web services
 
+##example12.html
 
+* JSON - JavaScript Object Notation
+* JSON with AJAX
+
+##example13.html
+
+* weather station list from example10 above, via AJAX
 
 
 
@@ -91,5 +99,5 @@
 #Other things to cover
 
 * javascript objects, properties
-* json - JavaScript Object Notation
+
 * ajax (Asynchronous JavaScript and Xml), web services

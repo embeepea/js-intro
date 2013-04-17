@@ -5,10 +5,12 @@
     <script type="text/javascript">
       $(document).ready(function() {
         $.ajax({
-          url      : 'randomnews.php',
-          dataType : 'text',
-          success  : function(results) {
-            $('.newslist').append($('<li>' + results + '</li>'));
+          url      : 'getstation.php',
+          dataType : 'json',
+          success  : function(stations) {
+            for (i=0; i<stations.length; ++i) {
+              $('.stations').append($('<li>' + stations[i].id + ': ' + stations[i].name + '</li>'));
+            }
           }
         });
 
@@ -17,8 +19,8 @@
   </head>
 
   <body>
-    <h1>Today's Latest News:</h2>
-    <ul class="newslist">
+    <h1>Weather Stations:</h2>
+    <ul class="stations">
     </ul>
   </body>
 

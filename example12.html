@@ -5,10 +5,12 @@
     <script type="text/javascript">
       $(document).ready(function() {
         $.ajax({
-          url      : 'randomnews.php',
-          dataType : 'text',
-          success  : function(results) {
-            $('.newslist').append($('<li>' + results + '</li>'));
+          url      : 'getrandomnews.php?n=3',
+          dataType : 'json',
+          success  : function(headlines) {
+            for (i=0; i<headlines.length; ++i) {
+              $('.newslist').append($('<li>' + headlines[i] + '</li>'));
+            }
           }
         });
 
