@@ -9,7 +9,7 @@
 
 * php is server-side
 * JavaScript is client-side
-* (server-side JavaScript is also possible now, but we're going to ignore that)
+* (server-side JavaScript is also possible now, but nevermind that for now)
 
 ##example1.html
 
