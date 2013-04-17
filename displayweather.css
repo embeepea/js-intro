@@ -1,0 +1,21 @@
+table.calendar div {
+  border: 1px solid black; 
+  margin-top: 3px;
+  padding: 1px;
+}
+table.calendar td {
+  vertical-align: top;
+  font-weight: bold;
+}
+table.container td {
+  vertical-align: top;
+}
+table.container td.label {
+  text-align: right;
+  font-weight: bold;
+}
+table.container td.weatherheading {
+  text-align: center;
+  font-weight: bold;
+  background-color: #cccccc;
+}

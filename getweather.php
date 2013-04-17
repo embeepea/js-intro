@@ -2,17 +2,12 @@
 include('weather.php');
 
 $id    = $_REQUEST['id'];
-$elem  = $_REQUEST['elem'];
 $year  = $_REQUEST['year'];
-$month = $_REQUEST['month'];
-$day   = $_REQUEST['day'];
+$month = intval($_REQUEST['month'],10);
+$day   = intval($_REQUEST['day'],10);
 
-for ($i=0; $i<count($stations); ++$i) {
-  if ($stations[$i]['id'] == $id) {
-    break;
-  }
-}
+header('Content-type: application/json');
 
-header('Content-type: text/plain');
+print json_encode(array('temp' => $data[$id]['TEMP'][$year][$month][$day],
+                        'prcp' => $data[$id]['PRCP'][$year][$month][$day]));
 
-print $data[$id][$elem][$year][$month][$day];
