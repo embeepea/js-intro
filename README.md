@@ -92,12 +92,6 @@
 
 * weather station list from example10 above, via AJAX
 
+##displayweather.html, displayweather.js, displayweather.css
 
-
-
-
-#Other things to cover
-
-* javascript objects, properties
-
-* ajax (Asynchronous JavaScript and Xml), web services
+* walkthrough of full example
