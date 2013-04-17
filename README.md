@@ -93,3 +93,17 @@ function doHello() {
 </body>
 </html> 
 ```
+
+
+#Other things to cover
+
+* HTML DOM concepts
+* divs & spans, both plain and nested
+* class attributes vs id attributes
+* jQuery
+* targeting DOM elements with selectors in jQuery
+* document-ready / onload
+* anonymous functions
+* asynchronous operations, function callbacks
+* javascript objects, properties
+
