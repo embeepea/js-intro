@@ -59,7 +59,7 @@
 
 * syntax similar to php and many other C-inspired languages
 * variables declared with `var` statement; optional, but *highly* recommended, because
-  otherwise *bad things can happen*
+  otherwise *bad things can happen*!
 * JavaScript is full of _bad parts_.  But if you stick to the _good parts_, it's a great langauge.
   [_JavaScript: the Good Parts_](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=sr_1_1?ie=UTF8&qid=1366208068&sr=8-1&keywords=javascript%2C+the+good+parts)
  is a great book by Douglas Crockford.
