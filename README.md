@@ -44,13 +44,14 @@
 
 ##example7.html
 
-* introducing jQuery
-* $ / jQuery function
+* introducing jQuery - a JavaScript library
+* the jQuery function, aka just $.  Note: this feels strange at first, but gets more natural after a while:
+  in JQuery, $ is a function name!
 * jQuery selectors: 'document', '#wilma', '#betty'
 * anonymous functions
 * asynchronicity, 'callback' functions
 
-##example7.html
+##example8.html
 
 * registering event handlers
 
@@ -63,6 +64,29 @@
   [_JavaScript: the Good Parts_](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=sr_1_1?ie=UTF8&qid=1366208068&sr=8-1&keywords=javascript%2C+the+good+parts)
  is a great book by Douglas Crockford.
 * scoping, function nesting
+
+##JavaScript objects
+
+* similar to PHP associative arrays (actually, more like PHP objects, which we did not cover!)
+
+##example9.html
+
+* JavaScript object syntax
+
+##example10.html
+
+* see `stations.js`
+* more complex object example
+
+##example11.html
+
+* ajax (Asynchronous JavaScript and XML) with jQuery
+
+
+
+
+
+
 
 #Other things to cover
 

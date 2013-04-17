@@ -3,9 +3,8 @@ include('weather.php');
 
 header('Content-type: application/json');
 
-$id = $_REQUEST['id'];
-
-if ($id) {
+if (array_key_exists('id', $_REQUEST)) {
+  $id = $_REQUEST['id'];
   for ($i=0; $i<count($stations); ++$i) {
     if ($stations[$i]['id'] == $id) {
       print json_encode($stations[$i]);
