@@ -32,7 +32,7 @@
 ##example5.html
 
 * Same as example4, but with CSS styling.
-* DOM concepts
+* DOM (Document Object Model) concepts
   * elements / attributes - nested structure
   * "selectors" for targeting objects in DOM
 
