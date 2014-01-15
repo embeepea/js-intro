@@ -1,5 +1,5 @@
 This repo contains some material that I wrote for a quick one-day crash course that I gave on JavaScript for the NEMAC staff in preparation for a Drupal training week in May, 2013.
----------------------------------------------------------------
+---
 
 #JavaScript Introduction
 
